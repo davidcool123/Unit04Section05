@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.custom-button {
+    background: linear-gradient(45deg, #1e90ff, #00bfff);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    background: linear-gradient(45deg, #00bfff, #1e90ff);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
